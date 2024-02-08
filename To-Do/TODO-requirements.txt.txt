@@ -1,0 +1,4 @@
+1) Add TODO
+2) Delete TODO
+3) Mark TODO as done
+4) Serialization/Persistence

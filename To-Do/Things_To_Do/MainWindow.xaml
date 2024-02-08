@@ -5,8 +5,62 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Things_To_Do"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="To-Do" Height="343" Width="800"
+        Background="DarkSlateGray">
+    <Window.Resources>
+        <local:Tasks x:Key="MyTodoList"/>
+
+        <DataTemplate x:Key="MyTaskTemplate">
+            <Border Name="border" BorderBrush="Black" BorderThickness="1"
+              Padding="5" Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <CheckBox Grid.Row="0" Grid.Column="0" IsChecked="{Binding Path=Done}" Content="Check"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=TaskName}" />
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Description}"/>
+                    <TextBlock Grid.Row="0" Grid.Column="2" Text="Priority:"/>
+                    <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding Path=Priority}"/>
+                </Grid>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="161*"/>
+            <RowDefinition Height="145*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="My To-Do List" FontSize="40" Margin="0,3,0,0" HorizontalAlignment="Center"/>
+        <Button x:Name="Add_Task" Grid.Column="0" Content="New Task" Width="70" HorizontalAlignment="Left" Margin="10,61,0,0" Grid.RowSpan="2" Click="Add_Task_Click"/>
+        <Button x:Name="Edit_Task" Grid.Column="0" Content="Edit Task" Margin="98,61,99,0" Grid.RowSpan="2" Click="Edit_Task_Click"/>
+        <Button x:Name="Delete_Task" Grid.Column="0" Content="Delete Task" Margin="187,61,10,0" Grid.RowSpan="2" Click="Delete_Task_Click"/>
+
+        <StackPanel Grid.Row="2" Margin="10,10,10,10" Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <ListBox Width="70" Margin="10"
+         ItemsSource="{Binding Source={StaticResource MyTodoList}}"
+         HorizontalContentAlignment="Stretch" 
+         IsSynchronizedWithCurrentItem="True" HorizontalAlignment="Left" Height="70"/>
+            <TextBlock FontSize="20" Text="Information:" Width="120" TextAlignment="Center" HorizontalAlignment="Left" FontFamily="Bahnschrift SemiCondensed" FontWeight="Bold"/>
+            <ContentControl Content="{Binding Source={StaticResource MyTodoList}}"
+                ContentTemplate="{StaticResource MyTaskTemplate}" Width="768" Height="100" FontSize="15" FontWeight="DemiBold"/>
+        </StackPanel>
 
     </Grid>
+
 </Window>

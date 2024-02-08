@@ -1,14 +1,42 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Things_To_Do
 {
-    public class Tasks : ObservableCollection<Task>
+    public class Tasks : CollectionBase
     {
-        public Tasks()
+
+        public Tasks() { }
+
+        public int Add(Task newTask)
         {
-            Add(new Task("Groceries", "Pick up Groceries and Detergent", 1, true));
-            Add(new Task("Train", "Head to the track", 3, false));
-            Add(new Task("Read", "50 Pages", 2, false));
+            if (newTask != null)
+            {
+                return base.List.Add(newTask);
+            }
+            return -1;
         }
+
+        public void Remove(Task task)
+        {
+            if (task != null)
+            {
+                base.List.Remove(task);
+            }
+        }
+
+        public int IndexOf(Task task)
+        {
+            if (task != null)
+            {
+                return base.List.IndexOf(task);
+            }
+            return -1;
+        }
+
     }
 }

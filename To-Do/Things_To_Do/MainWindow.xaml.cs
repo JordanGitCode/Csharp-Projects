@@ -18,24 +18,13 @@ namespace Things_To_Do
 	{
 		public MainWindow()
 		{
-			InitializeComponent();
-		}
+            this.Resources["Tasks"] = new Tasks();
 
-		private void Add_Task_Click(object sender, RoutedEventArgs e)
-		{
-			Tasks tasksInstance = new Tasks();
-			Task task = new Task("", "", 1, true);
-			tasksInstance.Add(task);
-		}
-
-		private void Edit_Task_Click(object sender, RoutedEventArgs e)
-		{
+            InitializeComponent();
 
 		}
 
-		private void Delete_Task_Click(object sender, RoutedEventArgs e)
-		{
 
-		}
+
 	}
 }

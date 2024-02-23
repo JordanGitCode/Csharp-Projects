@@ -1,0 +1,11 @@
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\bin\Debug\ATMSoftware.exe.config
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\bin\Debug\ATMSoftware.exe
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\bin\Debug\ATMSoftware.pdb
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.csproj.AssemblyReference.cache
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.frmLogin.resources
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.Properties.Resources.resources
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.csproj.GenerateResource.cache
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.exe
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.pdb
+C:\Users\Jordan\OneDrive - Mahala.Ms\Documents\GitHub\Csharp-Projects\ATM\ATMSoftware\obj\Debug\ATMSoftware.frmHome.resources

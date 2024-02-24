@@ -32,10 +32,10 @@
             this.profileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grbQuickOptions = new System.Windows.Forms.GroupBox();
-            this.btnWithdraw = new System.Windows.Forms.Button();
-            this.btnDeposit = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnDeposit = new System.Windows.Forms.Button();
+            this.btnWithdraw = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
             this.grbQuickOptions.SuspendLayout();
@@ -64,7 +64,7 @@
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(145, 26);
             this.logOutToolStripMenuItem.Text = "Log Out";
             // 
             // grbQuickOptions
@@ -82,23 +82,14 @@
             this.grbQuickOptions.TabStop = false;
             this.grbQuickOptions.Text = "s";
             // 
-            // btnWithdraw
+            // button4
             // 
-            this.btnWithdraw.Location = new System.Drawing.Point(7, 22);
-            this.btnWithdraw.Name = "btnWithdraw";
-            this.btnWithdraw.Size = new System.Drawing.Size(169, 85);
-            this.btnWithdraw.TabIndex = 0;
-            this.btnWithdraw.Text = "Withdraw";
-            this.btnWithdraw.UseVisualStyleBackColor = true;
-            // 
-            // btnDeposit
-            // 
-            this.btnDeposit.Location = new System.Drawing.Point(182, 22);
-            this.btnDeposit.Name = "btnDeposit";
-            this.btnDeposit.Size = new System.Drawing.Size(169, 85);
-            this.btnDeposit.TabIndex = 1;
-            this.btnDeposit.Text = "Deposit";
-            this.btnDeposit.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(532, 22);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(169, 85);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -109,14 +100,23 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnDeposit
             // 
-            this.button4.Location = new System.Drawing.Point(532, 22);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(169, 85);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnDeposit.Location = new System.Drawing.Point(182, 22);
+            this.btnDeposit.Name = "btnDeposit";
+            this.btnDeposit.Size = new System.Drawing.Size(169, 85);
+            this.btnDeposit.TabIndex = 1;
+            this.btnDeposit.Text = "Deposit";
+            this.btnDeposit.UseVisualStyleBackColor = true;
+            // 
+            // btnWithdraw
+            // 
+            this.btnWithdraw.Location = new System.Drawing.Point(7, 22);
+            this.btnWithdraw.Name = "btnWithdraw";
+            this.btnWithdraw.Size = new System.Drawing.Size(169, 85);
+            this.btnWithdraw.TabIndex = 0;
+            this.btnWithdraw.Text = "Withdraw";
+            this.btnWithdraw.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -139,6 +139,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmHome";
             this.Text = "frmHome";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmHome_FormClosing);
             this.Load += new System.EventHandler(this.frmHome_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

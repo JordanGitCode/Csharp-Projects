@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATMSoftware.Models
 {
-    internal class Transaction
+    public class Transaction
     {
 
         public int _id { get; }

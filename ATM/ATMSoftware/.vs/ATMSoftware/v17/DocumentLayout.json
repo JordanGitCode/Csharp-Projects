@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|c:\\users\\jordan\\onedrive - mahala.ms\\documents\\github\\csharp-projects\\atm\\atmsoftware\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\models\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:models\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|c:\\users\\jordan\\onedrive - mahala.ms\\documents\\github\\csharp-projects\\atm\\atmsoftware\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|c:\\users\\jordan\\onedrive - mahala.ms\\documents\\github\\csharp-projects\\atm\\atmsoftware\\bin\\debug\\tfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|solutionrelative:bin\\debug\\tfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2FB2D6-0528-48FC-B329-08846B63466C}|ATMSoftware.csproj|C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,37 +42,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "tFile.txt",
-              "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\bin\\Debug\\tFile.txt",
-              "RelativeDocumentMoniker": "bin\\Debug\\tFile.txt",
-              "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\bin\\Debug\\tFile.txt",
-              "RelativeToolTip": "bin\\Debug\\tFile.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-02-24T07:49:49.578Z",
+              "DocumentIndex": 0,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Models\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\BankAccount.cs",
+              "RelativeToolTip": "Models\\BankAccount.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowBIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:17:28.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\Bank.cs",
+              "RelativeDocumentMoniker": "Models\\Bank.cs",
+              "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\Bank.cs",
+              "RelativeToolTip": "Models\\Bank.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:14:54.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreditCard.cs",
+              "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\CreditCard.cs",
+              "RelativeDocumentMoniker": "Models\\CreditCard.cs",
+              "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\CreditCard.cs",
+              "RelativeToolTip": "Models\\CreditCard.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:11:57.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
               "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\Models\\Transaction.cs",
               "RelativeToolTip": "Models\\Transaction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T12:16:21.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T12:16:21.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmLogin.cs",
               "RelativeDocumentMoniker": "frmLogin.cs",
@@ -72,45 +103,41 @@
               "RelativeToolTip": "frmLogin.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAASwCcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T12:12:35.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T12:12:35.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmLogin.cs",
               "RelativeDocumentMoniker": "frmLogin.cs",
               "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmLogin.cs [Design]",
               "RelativeToolTip": "frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T12:12:31.857Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-02-23T12:12:31.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "frmHome.cs",
               "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmHome.cs",
               "RelativeDocumentMoniker": "frmHome.cs",
               "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmHome.cs",
               "RelativeToolTip": "frmHome.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAASwDkAAAAIAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAASwDYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T11:29:19.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T11:29:19.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmHome.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmHome.cs",
               "RelativeDocumentMoniker": "frmHome.cs",
               "ToolTip": "C:\\Users\\Jordan\\OneDrive - Mahala.Ms\\Documents\\GitHub\\Csharp-Projects\\ATM\\ATMSoftware\\frmHome.cs [Design]",
               "RelativeToolTip": "frmHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T11:25:08.503Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-02-23T11:25:08.503Z"
             }
           ]
         }

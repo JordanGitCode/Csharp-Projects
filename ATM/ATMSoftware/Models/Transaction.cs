@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace ATMSoftware.Models
 {
     public class Transaction
     {
-
-        public int _id { get; }
-        public string _name { get; }
-        public string _description { get; }
-        public DateTime _created { get; }
+        [XmlAttribute]
+        public int _id { get; set; }
+        [XmlAttribute]
+        public string _name { get; set; }
+        [XmlAttribute]
+        public string _description { get; set; }
+        [XmlAttribute]
+        public DateTime _created { get; set; }
 
         public Transaction()
         {

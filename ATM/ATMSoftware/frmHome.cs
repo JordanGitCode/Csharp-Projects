@@ -20,10 +20,10 @@ namespace ATMSoftware
 
         private void frmHome_Load(object sender, EventArgs e)
         {
-
-            /*transactionList.Add(new Transaction(0, "t0", "1st transaction", DateTime.Now));
-            transactionList.Add(new Transaction(1, "t1", "2nd transaction", DateTime.Now));*/
-
+/*
+            transactionList.Add(new Transaction(0, "t0", "1st transaction", DateTime.Now));
+            transactionList.Add(new Transaction(1, "t1", "2nd transaction", DateTime.Now));
+*/
             transactionList = Deserialize();
 
             dataGridView1.DataSource = transactionList;
@@ -41,20 +41,23 @@ namespace ATMSoftware
         private void Serialize(List<Transaction> tList)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<Transaction>));
-            StreamWriter writer = File.CreateText("tFile.txt");
+            StreamWriter writer = File.CreateText("C:\\txtFiles\\tFile.txt");
             serializer.Serialize(writer, tList);
+            writer.Dispose();
+            writer.Close();
         }
 
         private List<Transaction> Deserialize()
         {
             XmlSerializer deserializer = new XmlSerializer(typeof(List<Transaction>));
-            StreamReader reader = File.OpenText("tFile.txt");
-            
-
-            return (List<Transaction>)deserializer.Deserialize(reader);
+            StreamReader reader = File.OpenText("C:\\txtFiles\\tFile.txt");
+            List<Transaction> result = (List<Transaction>)deserializer.Deserialize(reader);
+            reader.Dispose();
+            reader.Close();
+            return result;
         }
 
-        private void frmHome_FormClosing(object sender, FormClosingEventArgs e)
+        private void frmHome_FormClosed(object sender, FormClosedEventArgs e)
         {
             Serialize(transactionList);
         }
